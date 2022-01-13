@@ -21,6 +21,7 @@
 		</Item>
 		<Item Name="의존성" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="Center on Caller.vi" Type="VI" URL="/&lt;userlib&gt;/Center on Caller.vi"/>
 				<Item Name="Clipboard transformation.vi" Type="VI" URL="/&lt;userlib&gt;/Clipboard transformation.vi"/>
 				<Item Name="Default folder.vi" Type="VI" URL="/&lt;userlib&gt;/Default folder.vi"/>
 				<Item Name="FlattenedStructured.vi" Type="VI" URL="/&lt;userlib&gt;/FlattenedStructured.vi"/>
@@ -61,16 +62,13 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_AdvSigProcOnlineWA.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_Advanced Signal Processing/NI_AdvSigProcOnlineWA.lvlib"/>
 				<Item Name="NI_AdvSigProcTFA.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_Advanced Signal Processing/NI_AdvSigProcTFA.lvlib"/>
 				<Item Name="NI_AdvSigProcWA.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_Advanced Signal Processing/NI_AdvSigProcWA.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
@@ -109,13 +107,6 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="[Delete] Main.vi" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/[Delete] Main.vi"/>
-			<Item Name="[Redetection] Baseline calculation.vi" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/[Redetection] Baseline calculation.vi"/>
-			<Item Name="[Redetection] Final Search.vi" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/[Redetection] Final Search.vi"/>
-			<Item Name="[Redetection] initial search.vi" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/[Redetection] initial search.vi"/>
-			<Item Name="[Stepwise] Baseline calculation.vi" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/[Stepwise] Baseline calculation.vi"/>
-			<Item Name="[Stepwise] Final search.vi" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/[Stepwise] Final search.vi"/>
-			<Item Name="[Stepwise] Initial search.vi" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/[Stepwise] Initial search.vi"/>
 			<Item Name="ABF1_Read.vi" Type="VI" URL="../../ABFFIO/ABF1_Read.vi"/>
 			<Item Name="ABF1FIO.lvclass" Type="LVClass" URL="../../ABFFIO/ABF1FIO.lvclass"/>
 			<Item Name="ABF2_Read.vi" Type="VI" URL="../../ABFFIO/ABF2_Read.vi"/>
@@ -126,8 +117,6 @@
 			<Item Name="ABFImport_ReadChannel.vi" Type="VI" URL="../../../../Application/Solution Package/APIs/ABFImport_ReadChannel.vi"/>
 			<Item Name="Additional config for txt file.vi" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/Additional config for txt file.vi"/>
 			<Item Name="Channel selection.vi" Type="VI" URL="../../ABFFIO/Channel selection.vi"/>
-			<Item Name="Data type_new.ctl" Type="VI" URL="../../../../Application/Solution Package/Data type_new.ctl"/>
-			<Item Name="Exponential Curve Fit.vi" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/Exponential Curve Fit.vi"/>
 			<Item Name="FGV_Seek.vi" Type="VI" URL="../../ReadHEKA/FGV_Seek.vi"/>
 			<Item Name="File Parameters.ctl" Type="VI" URL="../../ReadHEKA/File Parameters.ctl"/>
 			<Item Name="HEKAdat.lvclass" Type="LVClass" URL="../../ReadHEKA/HEKAdat.lvclass"/>
@@ -135,14 +124,10 @@
 			<Item Name="LV_ABFIO.dll" Type="Document" URL="../../../../Application/Solution Package/APIs/LV_ABFIO.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="LVASPT_WA.dll" Type="Document" URL="/&lt;resource&gt;/LVASPT_WA.dll"/>
-			<Item Name="Minhee analysis parameter_new.ctl" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/Minhee analysis parameter_new.ctl"/>
-			<Item Name="Negative Threshold.VI" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/Negative Threshold.VI"/>
 			<Item Name="Polarity.ctl" Type="VI" URL="../../../../Application/Solution Package/Polarity.ctl"/>
 			<Item Name="ReadHEKA.vi" Type="VI" URL="../../ReadHEKA/ReadHEKA.vi"/>
-			<Item Name="Regression Equation String.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Mathematics/Fitting/support/Regression Equation String.vi"/>
 			<Item Name="Tree.ctl" Type="VI" URL="../../ReadHEKA/Tree.ctl"/>
 			<Item Name="TXT_Read.vi" Type="VI" URL="../../../../Application/Solution Package/APIs/TXT_Read.vi"/>
-			<Item Name="Update Event trace.vi" Type="VI" URL="../../../../Application/Solution Package/Minhee Analysis/Update Event trace.vi"/>
 		</Item>
 		<Item Name="빌드 스펙" Type="Build"/>
 	</Item>
